@@ -4,7 +4,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+@font-face {
+  font-family: 'Jost';
+  src: local('Jost Medium'), local('Jost-Medium'),
+    url('fonts/Jost-Medium.woff2') format('woff2'),
+    url('fonts/Jost-Medium.woff') format('woff'),
+    url('Jost-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
 .contain {
   max-width: 1280px;
   margin: auto;
@@ -14,8 +22,6 @@ body {
     background: #F5F5F5;
   font-family: cursive;
 }
-
-
 /* NAVBAR STYLING STARTS */
 .navbar {
   position: relative;
@@ -51,6 +57,7 @@ margin-left: 45px;
   text-decoration: none;
     list-style-type: none;
     height: 15px;
+    cursor: pointer;
 }
 .navbar-menu-link {
   display: flex;
@@ -65,6 +72,7 @@ color: #5D6C7B;
   list-style-type: none;
 }
 .navbar-phone {
+  text-decoration: none;
     font-family: 'Jost';
     font-style: normal;
     font-weight: 500;
@@ -93,7 +101,7 @@ justify-content: flex-start;
 
 
 .menu-button-text {
-font-family: 'cursive';
+font-family: 'Jost';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -144,6 +152,9 @@ padding: 0;
 }
 .form-control {
 width: 900px;
+font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
 height: 40px;
 color: black;
 font-weight: bold;
@@ -189,6 +200,8 @@ transition: 0.2s ease-in-out;
     color: #282739;
 }
 .korz {
+  font-family: 'Jost';
+    font-style: normal;
   margin-left: 10px;
 }
 
@@ -211,11 +224,9 @@ height: 100%;
 background-repeat:no-repeat;
 border-radius: 10px;
 overflow: visible;
-
 border-radius: 10px 10px 10px 10px;
   width: 1380px;
 margin-left: 50px;
-
 position: relative;
     height: 445px;
 
@@ -237,6 +248,13 @@ background: #FFFFFF;
     border-radius: 5px;
     width: 218px;
 }
+.energy-icon {
+  margin-top: -28px;
+    margin-bottom: -156px;
+    margin-left: 77px;
+  }
+
+
 .text-zapis {
 height: 15px;
   font-family: 'Jost';
@@ -259,11 +277,7 @@ background: #FFFFFF;
 .icon-energy {
     width: 16px;
       height: 16px;
-      color: #000;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
+  
 }
 .icon-navig {
   width: 16px;
@@ -282,7 +296,10 @@ background: #FFFFFF;
 
 .icon-scooter {
   width: 16px;
-    height: 16px;}
+    height: 16px;
+    margin-top: 18px;
+margin-left: 10px;
+  }
   .icon-shop {
 position: relative;
   margin-left: 58px;
@@ -385,6 +402,7 @@ margin-left: 23px;
 }
 .header-sovet-text {
   display: grid;
+
   text-decoration: none;
   font-family: 'Jost';
     font-style: normal;
@@ -395,15 +413,19 @@ margin-left: 23px;
     list-style-type: none;
 }
 .text-sovet2 {
-  margin-left: 79px;
+  margin-left: 118px;
     margin-top: -38px;
   }
 
 .text-sovet {
 margin-left: 52px;
-  margin-top: 9px;
+  margin-top: -24px;
   }
   .section-li {
+    font-family: 'Jost';
+    font-style: normal;
+    
+      font-weight: 500;
     text-decoration: none;
       list-style-type: none;
       margin-bottom: -145px;
@@ -776,6 +798,7 @@ border: 1.3px solid #EAEBED;
       
             .navbar-menu-link {
               display: flex;
+              cursor: pointer;
               gap: 30px;
               font-family: 'Jost';
               font-style: normal;
@@ -816,10 +839,10 @@ border: 1.3px solid #EAEBED;
       
       
             .menu-button-text {
-              font-family: 'cursive';
+              font-family: 'Jost';
               font-style: normal;
               font-weight: 500;
-              font-size: 18px;
+              font-size: 16px;
               line-height: 23px;
               margin-left: 25px;
       
@@ -872,6 +895,9 @@ border: 1.3px solid #EAEBED;
             .form-control {
               width: 560px;
               height: 40px;
+              font-family: 'Jost';
+
+
               color: black;
               font-weight: bold;
               background: #FFFFFF;
@@ -923,6 +949,8 @@ border: 1.3px solid #EAEBED;
             }
       
             .korz {
+              font-family: 'Jost';
+                font-style: normal;
               margin-left: 10px;
             }
       
@@ -975,10 +1003,7 @@ border: 1.3px solid #EAEBED;
               width: 16px;
               height: 16px;
               color: #000;
-              display: flex;
-              flex-direction: row;
-              justify-content: center;
-              align-items: center;
+       position: relative;
             }
       
             .icon-navig {
@@ -998,9 +1023,15 @@ border: 1.3px solid #EAEBED;
             .icon-scooter {
               width: 16px;
               height: 16px;
-      
+      margin-top: 20px;
+        margin-left: 9px;
       
             }
+      .energy-icon {
+margin-top: 1px;
+  margin-top: -27px;
+    margin-left: 77px;
+  }
       
             .rectangl {
       
@@ -1033,6 +1064,7 @@ border: 1.3px solid #EAEBED;
               position: relative;
               margin-bottom: 20px;
               gap: 20px;
+              position: relative;
             }
       
             .header-address {
@@ -1088,6 +1120,9 @@ border: 1.3px solid #EAEBED;
       
             .header-sovet-text {
               display: grid;
+              position: relative;
+                width: 149px;
+                  height: 36px;
               text-decoration: none;
               font-family: 'Jost';
               font-style: normal;
@@ -1099,14 +1134,16 @@ border: 1.3px solid #EAEBED;
             }
       
             .text-sovet2 {
-              margin-left: 79px;
+              margin-left: 120px;
               margin-top: -38px;
             }
       
             .text-sovet {
-              margin-left: 52px;
-              margin-top: 9px;
-            }
+              position: relative;
+              margin-left: 50px;
+                margin-top: -24px;
+                }
+            
                             .section-li {
                               text-decoration: none;
                               list-style-type: none;
@@ -1301,7 +1338,7 @@ background-size: 100%;
       margin-left: -3px;
       margin-top: 2px;
     }
-                }
+  
                                 .product-list h3 {
                                 margin-left: -70px;
                                   margin-bottom: 34px;
@@ -1317,4 +1354,4 @@ background-size: 100%;
                                   margin-bottom: 26px;
                                   margin-top: -18px;
                                 }
-}
+                              }
