@@ -8,6 +8,7 @@
 .contain {
   max-width: 1280px;
   margin: auto;
+  margin-bottom: 450px;
 }
 body {
     background: #F5F5F5;
@@ -223,12 +224,34 @@ position: relative;
  
   padding-bottom: 72px;
 }
+.button2 {
+
+    padding: 10px 20px;
+background: #FFFFFF;
+  border: 1.3008px solid #FFFFFF;
+  border-radius: 5px;
+  padding: 15px 25px;
+  gap: 10px;
+  cursor: pointer;
+    background: #6F73EE;
+    border-radius: 5px;
+    width: 218px;
+}
+.text-zapis {
+height: 15px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+}
 .button {
   
 background: #FFFFFF;
   border: 1.3008px solid #FFFFFF;
   border-radius: 5px;
- font-size: ;
     padding: 15px 25px;
     gap: 10px;
     cursor: pointer;
@@ -254,13 +277,38 @@ background: #FFFFFF;
     margin-left: -21px;
     margin-bottom: -17px;
 
-}
+
+  }
+
 .icon-scooter {
   width: 16px;
-    height: 16px;
-   
+    height: 16px;}
+  .icon-shop {
+position: relative;
+  margin-left: 58px;
+  margin-bottom: -3px;
+    }
+  
+  .icon-shop1 {
+margin-left: 23px;
+  margin-bottom: -5px;
+  }
+.p-title-text {
+  font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #282739;
+  margin-left: 25px;
+    width: 90px;
+    height: 19px;
+      margin-top: -34px;
+        margin-left: 27px;
+        margin-bottom: 25px;
+      }
 
-}
+
 .rectangl {
 
     width: 40px;
@@ -355,8 +403,333 @@ background: #FFFFFF;
 margin-left: 52px;
   margin-top: 9px;
   }
+  .section-li {
+    text-decoration: none;
+      list-style-type: none;
+      margin-bottom: -145px;
+  }
 
-/* APPLYING MEDIA QUERIES */
+    .li-text {
+      position: relative;
+      margin-bottom: 95px;
+        margin-left: -30px;
+    } 
+  .section-ul {
+      background-color: #F5F5F5;
+      padding: 40px;
+      max-width: 629px;
+    }
+    .price-text {
+    position: absolute;
+      margin-left: 100px;
+        }
+    
+    .section-li {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  margin-bottom: -150px;
+    margin-left: -38px;
+    margin-top: -54px;
+  }
+    
+  
+    .section-li:last-of-type {
+      margin-bottom: 0;
+    }
+  
+    .section-li>svg {
+      width: 30px;
+      height: auto;
+      margin-right: 30px;
+      margin-top: 30px;
+    }
+  
+    .section-li>svg,
+    .section-li>span {
+      display: block;
+    }
+        .practic-title {
+      font-family: 'Jost';
+        font-style: normal;
+        width: 645px;
+          height: 153px;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 51px;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        color: #282739; }
+
+.practic-content {
+  max-width: 700px;
+  position: relative;
+  max-height: 200px;
+  margin-left: -641px;
+ 
+}
+.practic-content-woman {
+  max-width: 7200px;
+  position: absolute;
+  max-height: 2200px;
+  margin-left: -41px;
+  margin-left: 587px;
+
+}
+.section-practic {
+  position: relative;
+background-image: url(img/scooter.jpg);
+background-repeat:no-repeat;
+background-position: left top;
+background-size: 100%;
+margin-left: 1003px;
+  width: 460px;
+  margin-bottom: 100px;
+  height: 380px;
+}
+.woman-scooter {
+    position: relative;
+      background-image: url(img/woman-scooter.jpg);
+      background-repeat: no-repeat;
+      background-position: left top;
+      background-size: 100%;
+    width: 480px;
+    height: 451px;
+    margin-left: 363px;
+      margin-bottom: 100px;
+    
+}
+
+.woman-li {
+  position: relative;
+    margin-left: -3px;
+    margin-top: -8px;
+  }
+
+
+.practic-title2 {
+      display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 450px;
+
+    margin-bottom: 50px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 51px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #282739;
+}
+.contain-item {
+    max-width: 1920px;
+
+}
+.product-item {
+  width: 255px;
+  position: relative;
+    text-align: center;
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 100px;
+    font-family: "Open Sans";
+    transition: .3s ease-in;
+    height: 200px;
+  
+}
+.product-list {
+  font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 100px;
+    color: #282739;
+}
+.hit-group {
+  position: relative;
+    margin-bottom: -36px;
+      margin-left: 10px;
+    }
+
+.hit-border {
+  background: #EE685F;
+    border-radius: 5px;
+    width: 41px;
+    height: 25px;
+    position: relative;
+}
+.hit {
+position: relative;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.new-border {
+  background: #75D14A;
+    border-radius: 5px;
+    width: 63px;
+    height: 25px;
+    position: relative;
+}
+.new {
+  position: relative;
+  font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+ 
+}
+.new-group {
+  position: relative;
+margin-bottom: -51px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.vesi-icon {
+margin-bottom: -35px;
+  margin-left: 202px;
+  position: relative;
+
+}
+.container-items {
+  column-width: 600px;
+    max-width: 600px;
+    margin:auto;
+display: grid;
+gap: 30px;
+  justify-content: center;
+ 
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.product-item:hover {
+  border-bottom: 2px solid #fc5a5a;
+}
+
+.product-item img {
+
+
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
+  width: 255px;
+  height: 201px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.product-list {
+  background: #fafafa;
+  padding: 15px 0;
+}
+
+.product-list h3 {
+margin-left: -67px;
+margin-bottom: 20px;
+}
+
+.price {
+  font-size: 16px;
+  color: #fc5a5a;
+
+
+  margin-bottom: 12px;
+}
+.li-price {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5D6C7B;
+    order: 1;
+    flex-grow: 0;
+      text-decoration: none;
+        list-style-type: none;
+max-width: 25px;
+      }
+      .grid {
+  
+      display: grid;
+    justify-content: center;
+      grid-template-columns: repeat(2, 1fr);
+margin-right: 23px;
+grid-row-gap: 12px;
+  margin-left: 27px;
+  margin-right: -5px;
+    margin-bottom: 20px;
+      }
+.KugooKirin {
+  font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #282739;
+}
+
+.button-item {
+display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  position: absolute;
+  left: 9.41%;
+  right: 9.8%;
+  top: 88.41%;
+  bottom: 4.07%;
+  background: #6F73EE;
+  border-radius: 5px;
+}
+
+
+.price-text {
+      text-decoration: none;
+        list-style-type: none;
+        margin-left: 30px;
+}
+.p-text {
+  font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    text-decoration-line: line-through;
+    color: #5D6C7B;
+    width: 52px;
+    height: 17px;
+    margin-left: 29px;
+}
+.circle {
+position: relative;
+border: 1.3px solid #EAEBED;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-top: -33px;
+    margin-left: 141px;
+}
+.circle2 {
+  position: relative;
+  border: 1.3px solid #EAEBED;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-top: -40px;
+    margin-left: 190px;
+}
+
 @media (max-width: 1440px) {
   .contain {
       max-width: 1440px;
@@ -646,7 +1019,7 @@ margin-left: 52px;
             }
       
             .header-image {
-              
+              margin-bottom: 72px;
       margin-left: 35px;
         margin-top: -12px;
         margin-right: 0px;
@@ -734,4 +1107,214 @@ margin-left: 52px;
               margin-left: 52px;
               margin-top: 9px;
             }
+                            .section-li {
+                              text-decoration: none;
+                              list-style-type: none;
+                              margin-bottom: -145px;
+                                margin-top: -49px;
+  margin-left: -38px;
+}
+                            
+              
+                            .li-text {
+                              position: relative;
+                              margin-bottom: 95px;
+                              margin-left: -30px;
+                            }
+              
+                            .section-ul {
+                              background-color: #F5F5F5;
+                              padding: 40px;
+                            }
+              
+                            .section-li-woman {
+                              display: flex;
+                              flex-direction: row;
+                              align-items: center;
+                        margin-bottom: -143px;
+                        margin-top: -53px;
+                          margin-left: -39px;
+                            }
+              
+                            .section-li:last-of-type {
+                              margin-bottom: 0;
+                            }
+              
+                            .section-li>svg {
+                              width: 30px;
+                              height: auto;
+                              margin-right: 30px;
+                              margin-top: 30px;
+                            }
+              
+                            .section-li>svg,
+                            .section-li>span {
+                              display: block;
+                            }
+              
+                            .practic-title {
+                              font-family: 'Jost';
+                              font-style: normal;
+                              width: 645px;
+                              height: 153px;
+                              font-weight: 600;
+                              font-size: 35px;
+                              line-height: 51px;
+                              margin-bottom: 29px;
+                              text-transform: uppercase;
+                              color: #282739;
+                            }
+              .text-practic {
+                font-family: 'Jost';
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #282739;
+              }
+                             .text-practic2 {
+                               font-family: 'Jost';
+                               font-style: normal;
+                               font-weight: 500;
+                               font-size: 20px;
+                               line-height: 24px;
+                               color: #282739;
+                             }
+                            .practic-content {
+                            max-width: 700px;
+                              position: absolute;
+                              max-height: 200px;
+                              margin-left: -730px;
+                                margin-top: 31px;
+              
+                            }
+              
+                            .practic-content-woman {
+                            max-width: 601px;
+                              position: absolute;
+                              max-height: 407px;
+                              margin-left: -41px;
+                              margin-left: 609px;
+                              margin-top: 28px;
+              
+                            }
+              
+                            .section-practic {
+                              position: relative;
+                              background-image: url(img/scooter.jpg);
+                              background-repeat: no-repeat;
+                              background-position: left top;
+background-size: 100%;
+  margin-left: 898px;
+  width: 516px;
+  margin-top: 431px;
+  margin-bottom: 100px;
+  height: 424px;
     }
+                            
+              
+                            .woman-scooter {
+                              position: relative;
+                              background-image: url(img/woman-scooter.jpg);
+                              background-repeat: no-repeat;
+                              background-position: left top;
+                              background-size: 100%;
+                          width: 514px;
+                            height: 463px;
+                            margin-left: 34px;
+                            margin-bottom: 100px;
+                            margin-top: 100px;
+              
+                            }
+              
+
+                            .woman-li {
+              position: relative;
+                margin-left: 2px;
+                margin-top: -9px;
+                              position: relative;
+                            }
+    .container-items { 
+    position: relative;
+      margin-left: 421px;
+    }
+    .practic-title2 {
+    margin-bottom: 64px;
+      margin-left: 3px;
+    }
+        .hit-group {
+          position: relative;
+            margin-bottom: -39px;
+          margin-left: 10px;
+            margin-top: -10px;
+        }
+    
+        .hit-border {
+          background: #EE685F;
+          border-radius: 5px;
+          width: 41px;
+          height: 25px;
+          position: relative;
+        }
+    
+        .hit {
+          position: relative;
+          font-family: 'Jost';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+    
+        .new-border {
+          background: #75D14A;
+          border-radius: 5px;
+          width: 63px;
+          height: 25px;
+          position: relative;
+        }
+    
+        .new {
+          position: relative;
+          font-family: 'Jost';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 24px;
+          text-align: center;
+          color: #FFFFFF;
+    
+        }
+    
+        .new-group {
+          position: relative;
+          margin-bottom: -51px;
+        margin-left: 11px;
+        margin-top: -10px;
+        }
+                .product-item img {
+    background-size: 109%;
+      width: 263px;
+      height: 216px;
+      border-radius: 10px 10px 0px 0px;
+      margin-left: -3px;
+      margin-top: 2px;
+    }
+                }
+                                .product-list h3 {
+                                margin-left: -70px;
+                                  margin-bottom: 34px;
+                                  margin-top: 16px;
+                                }
+                                .grid {
+                
+                                  display: grid;
+                                  justify-content: center;
+                                  grid-template-columns: repeat(2, 1fr);
+                                margin-left: 25px;
+                                  margin-right: -5px;
+                                  margin-bottom: 26px;
+                                  margin-top: -18px;
+                                }
+}
