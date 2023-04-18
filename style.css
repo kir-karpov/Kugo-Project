@@ -2104,7 +2104,11 @@ margin-top: -365px;
   border-radius: 5px;
   padding-right: 50px;
 }
-
+.modal-text-alert {
+  margin-left: 73px;
+  color: #282739;
+  margin-top: 70px;
+}
 .footer-top {
   margin-top: 100px;
 }
@@ -2425,7 +2429,7 @@ width: 755px;
   height: 592px;
   background-color: white;
   width: 802px;
-  height: 661px;
+  height: 561px;
 
 
 }
