@@ -13,7 +13,6 @@
                 <input id="userphone" 
                     type="tel"
                     class="input phone-mask" 
-                    
                     maxlength="25"
                     name="userphone"
                     placeholder="+7 (___) __ - __ - __ "
@@ -43,6 +42,11 @@
 
     <script src="just-validate.production.min.js"></script>
     <script src="main.js"></script>
+    <script>
+  $(document).ready(function () {
+    $(".phone").mask("8(999) 999-99-99")
+  });
+  </script>
 </body>
 
 </html>
