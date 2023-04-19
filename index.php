@@ -25,7 +25,7 @@
       <a href="#" class="navbar-menu-link">Сотрудничество</a>
     </li>
     <li class="navbar-menu-item">
-      <a href="#" class="navbar-menu-link">Заказать звонок</a>
+      <a href="#" class="navbar-menu-link " data-toggle="modal">Заказать звонок</a>
     </li>
     <li class="navbar-menu-item">
       <div class="navbar-contacts">
@@ -295,7 +295,7 @@
       <use href="sprite/vesi.svg#vesi"></use>
     </svg>
     <img src="img/kirin.jpg">
-    <div class="product-list">
+    <div class="product-list prodlist">
       <h3 class="KugooKirin">Kugoo Kirin M4</h3>
       <ul class="grid">
   
@@ -427,7 +427,7 @@
       <use href="sprite/vesi.svg#vesi"></use>
     </svg>
     <img src="img/kirin.jpg">
-    <div class="product-list">
+    <div class="product-list prodlist">
       <h3 class="KugooKirin">Kugoo Kirin M4</h3>
       <ul class="grid">
   

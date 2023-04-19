@@ -25,7 +25,7 @@
       </ul>
       
     </div>
-    <div class="footer-menu-wrapper" style="margin-right: 100px;position: relative;left: -6px;top: 3px;">
+    <div class="footer-menu-wrapper a991ap" style="margin-right: 100px;position: relative;left: -6px;top: 3px;">
       <h2 class="footer-menu-title">Покупателям</h2>
       <ul class="footer-menu-list footer-menu-column-2">
         <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;">Сервисный центр</a></li>
@@ -43,14 +43,14 @@
       <h2 class="footer-menu-title">Контакты</h2>
       <ul class="footer-menu-list footer-menu-column-2">
         <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;position: relative;left: -1px;top: 2px; font-size: 12px;">Call-центр</a></li>
-        <li class="footer-menu-item"><a href="" class="phone" style="width: 250px;">+7 (800) 505-54-61</a></li>
+        <li class="footer-menu-item"><a href="tel:+79996861014" class="phone" style="width: 250px;">+7 (800) 505-54-61</a></li>
         <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;margin-top: 5px;top: -5px;position: relative;left: -3px;  font-size: 12px;">Пн-Вс 10:00 - 20:00</a></li>
         <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;position: relative;left: 14px;top: 2px;  font-size: 12px;">Сервисный центр</a></li>
-        <li class="footer-menu-item"><a href="" class="phone" style="width: 250px;left: 18px;">+7 (499) 350-76-92</a></li>
+        <li class="footer-menu-item"><a href="tel:+79996861014" class="phone" style="width: 250px;left: 18px;">+7 (499) 350-76-92</a></li>
         <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;margin-top: 5px;position: relative;top: -5px;left: 15px;  font-size: 12px;">Пн-Вс 10:00 - 20:00</a></li>
     
       </ul>
-      <p class="text-zvonok"> Заказать звонок</p>
+      <p class="text-zvonok" data-toggle="modal"> Заказать звонок</p>
     </div>
   </div>
  </div>
