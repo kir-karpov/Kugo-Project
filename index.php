@@ -116,7 +116,9 @@
   Восточно-Кругликовская улица, 86
  </p>
   <p class="header-address2" style="margin-left: 200px;max-width: 167px;margin-top: -17px;margin-bottom: 19px;">Вт - Сб 10:00 - 20:00</p>
-  <h1 class="header-title" style="margin-bottom: 4px;max-width: 650px;">Запишитесь на бесплатный тест-драйв электросамокатов</h1>
+  <h1 class="header-title" style="margin-bottom: 4px;max-width: 650px;">
+  <?php echo "Запишитесь на бесплатный тест-драйв электросамокатов" ?>
+</h1>
   <h2 class="header-title2">в Москве без ограничения по времени</h2>
   <ul class="header-sovet" style="margin-left: -8px;margin-bottom: 46px;">
 
@@ -488,160 +490,45 @@
   <div class="bg-grey section-cta">
     <img src="img/cta.png" alt="call to action" class="cta-img"/> 
     <div class="cta-form-wrapper contain">
-      <form action="#" class="cta-form">
-    <h2 class="section-title cta-form-title">Нет нужной модели, которую хотите протестировать?</h2>
+      <form action="handler.php" method="POST" class="cta-form">
+        <h2 class="section-title cta-form-title">Нет нужной модели, которую хотите протестировать?</h2>
         <p class="cta-form-text">Оставьте заявку, и менеджер подберет нужный самокат</p>
         <div class="input-group-wrapper">
           <div class="input-group">
-            <input id="tel-name" type="text" class="input" placeholder=" ">
+            <input id="tel-name" 
+            type="phone" 
+            class="input phone-mask" 
+   name="userphone"
+   maxlength="25"
+                    placeholder="+7 (___) __ - __ - __ "
+                    required>
             <label for="tel-name"></label>
-                <button type="submit" class="button-cta"><p class="button-text">Оставить заявку на тест-драйв</p></button>
+            <button type="submit" class="button-cta"><p class="button-text">Оставить заявку на тест-драйв</p></button>
           </div>
         </div>
         <div class="cta-form-footer">
-     
           <div class="alert">
-          <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes">
-          <label for="happy"> </label>
+            <input type="checkbox" class="custom-checkbox" id="privacy-policy" name="privacy-policy" required>
+            <label for="privacy-policy"></label>
             <p class="alert-text">
-            Нажимая на кнопку, вы соглашаетесь на обработку <br> персональных данных и политикой конфиденциальности
-          </p>
-        </div>
+              Нажимая на кнопку, вы соглашаетесь на обработку <br> персональных данных и политикой конфиденциальности
+            </p>
+          </div>
         </div>
       </form>
     </div>
   </div>
 </section>
 
-<footer class="footer">
-  
-    <div class="container-top">
-      <div class="footer-top">
-        <h1 class="footertoptext">Оставьте свою почту и станьте первым, кто получит скидку на новые самокаты</h1>
-        <input id="email-name" type="text" class="input-email" placeholder=" Введите Ваш email ">
-        <label for="email-name"></label>
-        <button type="submit" class="button button-footer"
-         style="color: #6F73EE;font-size: 15px; padding-right: 36px;padding-left: 27px;padding-top: 14px;margin-bottom: 0px;padding-bottom: 16px;margin-top: 23px;margin-left: -229px;">
-          <div class="button-footer-text">Подписаться</div> </button>
-      </div>
-    </div>
- <div class="container-medium">
-  <div class="footer-bottom">
-    <div class="footer-menu-wrapper" style="position: relative;top: 3px;">
-      <h2 class="footer-menu-title">Каталог товаров</h2>
-      <ul class="footer-menu-list">
-        <li class="footer-menu-item"><a href="" class="footer-menu-link">Электросамокаты</a></li>
-        <li class="footer-menu-item"><a href="" class="footer-menu-link">Электроскутеры</a></li>
-        <li class="footer-menu-item"><a href="" class="footer-menu-link">Электровелосипеды</a></li>
-        <li class="footer-menu-item"><a href="" class="footer-menu-link">Электровелосипеды</a></li>
-      </ul>
-      
-    </div>
-    <div class="footer-menu-wrapper" style="margin-right: 100px;position: relative;left: -6px;top: 3px;">
-      <h2 class="footer-menu-title">Покупателям</h2>
-      <ul class="footer-menu-list footer-menu-column-2">
-        <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;">Сервисный центр</a></li>
-        <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;">Доставка и оплата</a></li>
-        <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;">Рассрочка</a></li>
-        <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;">Тест-драйв</a></li>
-            <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;">Блог</a></li>
-                <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;">Сотрудничество</a></li>
-                    <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;">Контакты</a></li>
-                        <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;">Акции</a></li>
-      </ul>
-  
-    </div>
-    <div class="footer-menu-wrapper media">
-      <h2 class="footer-menu-title">Контакты</h2>
-      <ul class="footer-menu-list footer-menu-column-2">
-        <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;position: relative;left: -1px;top: 2px; font-size: 12px;">Call-центр</a></li>
-        <li class="footer-menu-item"><a href="" class="phone" style="width: 250px;">+7 (800) 505-54-61</a></li>
-        <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;margin-top: 5px;top: -5px;position: relative;left: -3px;  font-size: 12px;">Пн-Вс 10:00 - 20:00</a></li>
-        <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;position: relative;left: 14px;top: 2px;  font-size: 12px;">Сервисный центр</a></li>
-        <li class="footer-menu-item"><a href="" class="phone" style="width: 250px;left: 18px;">+7 (499) 350-76-92</a></li>
-        <li class="footer-menu-item"><a href="" class="footer-menu-link" style="width: 250px;margin-top: 5px;position: relative;top: -5px;left: 15px;  font-size: 12px;">Пн-Вс 10:00 - 20:00</a></li>
-    
-      </ul>
-      <p class="text-zvonok"> Заказать звонок</p>
-    </div>
-  </div>
- </div>
- <div class="contain3">
-  <hr class="footer-seporator">
-<div class="container-medium-social" style="height: 115px;position: relative;left: 9px;">
-<div class="logo-footer">
-  <a href="./" class="kugoo">KUGOO</a>
-</div>
-<svg class="icon-google">
-  <use xlink:href="sprite/google.svg#google"></use>
-</svg>
-<svg class="icon-appstore">
-  <use xlink:href="sprite/appstore.svg#appstore"></use>
-</svg>
-<svg class="icon-vk">
-  <use xlink:href="sprite/vk.svg#vk"></use>
-</svg>
-<svg class="icon-youtube">
-  <use xlink:href="sprite/youtube.svg#youtube"></use>
-</svg>
-<svg class="icon-telegram">
-  <use xlink:href="sprite/telegram.svg#telegram"></use>
-</svg>
-</div>
-  <hr class="footer-seporator">
- </div>
- <div class="contain3">
-  <div class="container-bottom-social" style="height: 100px;">
-  <p class="tag1">Реквизиты</p>
-  <p class="tag2">Политика конфиденциальности</p>
-  <svg class="icon-group-media">
-    <use xlink:href="sprite/group-media.svg#group-media"></use>
-  </svg>
-  <p class="tag3">Online чат: </p>
-    <svg class="icon-navbar-contacts">
-      <use href="sprite/contacts-navbar.svg#contacts-navbar"></use>
-    </svg>
-  </div>
- </div>
-</footer>
-<div class="modal">
-  <div class="modal-dialog">
-        <svg class="icon-close">
-          <use href="sprite/close.svg#close"></use>
-        </svg>
-<img class="modal-img" src="img/devochka.png" alt="devochka katitsya na samokate"/>
-<h2 class="modal-title">Запишитесь на тест-драйв электросамоката</h2>
-<p class="modtext1">и подберите модель для себя</p>
-<p class="modtext2">Менеджер свяжется с вами в течение 5 минут, чтобы согласовать время.</p>
-<p class="modtext3">Как с вами удобнее связаться?</p>
-<div class="input-group modal-group">
-  <input id="tel-name" type="text" class="input" placeholder=" ">
-  <label for="tel-name"></label>
-  <button type="submit" class="button-cta button-modal">
-    <p class="button-text modal-button-text">Оформить предзаказ</p>
-  </button>
-</div>
+<script>
+  const ctaForm = document.querySelector('.cta-form');
+  ctaForm.addEventListener('submit', function(e) {
+    if (!document.getElementById('privacy-policy').checked) {
+      e.preventDefault();
+      alert('Пожалуйста, согласитесь с политикой конфиденциальности');
+    }
+  });
+</script>
 
-<label class="checkbox style-b">
-  <input type="checkbox"checked="checked"/> 
-  <div class="checkbox__checkmark"></div>
-  <div class="checkbox__body"> </div>
-</label>
-
-   
-    <p class="alert-text modal-text-alert">
-      Нажимая на кнопку, вы соглашаетесь<br> на обработку  персональных данных<br> и политикой конфиденциальности
-    </p>
-  
-
-
-
-
-  </div>
-</div>
-    <script src="swiper-bundle.min.js"></script>
-    <script src="just-validate.production.min.js"></script>
-    <script src="main.js"></script>
-</body>
-
-</html>
+<?php include_once("footer.php");?>
+<?php include_once("modal.php");?>
