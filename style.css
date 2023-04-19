@@ -2549,7 +2549,7 @@ width: 755px;
     background: #F5F5F5;
     color: #fff;
       margin-left: -12px;
-      left: -61px;
+      left: -70px;
   }
 
 
@@ -2745,9 +2745,9 @@ font-size: 14px;
     top: 0;
     left: 0;
     border-radius: 10px;
-    background: linear-gradient(73.21deg, #6F73EE 17.37%, rgba(111, 115, 238, 0) 67.02%);
+    background: linear-gradient(73.21deg, #6F73EE 17.37%, rgba(111, 115, 238, 0) 87.02%);
     position: absolute;
-    width: 1378px;
+    width: 991px;
     border-radius: 1px;
     z-index: 0;
     overflow: visible;
@@ -2761,7 +2761,7 @@ font-size: 14px;
     border-radius: 10px;
     overflow: visible;
     border-radius: 10px 10px 10px 10px;
-    width: 1378px;
+    width: 991px;
 
     height: 445px;
 
@@ -2984,7 +2984,7 @@ font-size: 14px;
   .practic-title {
     font-family: 'Jost';
     font-style: normal;
-    width: 645px;
+    width: 440px;
     height: 153px;
     font-weight: 600;
     font-size: 26px;
@@ -3001,6 +3001,9 @@ font-size: 14px;
     font-size: 20px;
     line-height: 24px;
     color: #282739;
+    position: relative;
+      top: 13px;
+      left: 75px;
   }
 
   .text-practic2 {
@@ -3066,17 +3069,17 @@ background-size: 90%;
     margin-left: 2px;
     margin-top: -9px;
     position: relative;
-    width: 975px;
+    width: 460px;
   }
 
   .container-items {
-    position: relative;
-  margin-bottom: 221px;
-    margin-left: 284px;
+  position: relative;
+    margin-bottom: 218px;
+   
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 189px;
-     
-      gap: 264px;
+    margin-left: 175px;
+    gap: 239px;
+    
   }
 
   .practic-title2 {
@@ -3170,7 +3173,7 @@ background-size: 90%;
   .bg-grey {
     background: #F4F7FB;
     position: relative;
-    width: 1440px;
+    width: 991px;
     height: 494px;
     margin: auto;
     margin-bottom: 100px;
@@ -3197,7 +3200,7 @@ background-size: 90%;
   }
 
   .cta-form-wrapper {
-    max-width: 1130px;
+    max-width: 991px;
     display: flex;
     justify-content: flex-start;
     margin-top: -365px;
@@ -3472,7 +3475,7 @@ font-size: 16px;
       font-size: 14px;
       line-height: 17px;
       color: #6F73EE;
-      width: 300px;
+      width: 150px;
     }
   
 
@@ -3498,6 +3501,11 @@ font-size: 16px;
     padding-left: 16px;
     padding-bottom: 68px;
 
+  }
+  .px991 {
+    margin-left: 100px; 
+      position: relative;
+      
   }
 .a991ap {
   margin-right: 44px;
@@ -3537,6 +3545,8 @@ font-size: 16px;
     flex-direction: row;
     width: 100%;
     gap: 10px;
+    position: relative;
+      left: -5px; !important
 
   }
 
@@ -3635,7 +3645,7 @@ font-size: 16px;
   .icon-group-media {
     width: 755px;
     cursor: pointer;
-    margin-right: -241px;
+  margin-right: -197px;
     height: 35px;
   }
 

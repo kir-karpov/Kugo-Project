@@ -5,7 +5,7 @@
         <h1 class="footertoptext">Оставьте свою почту и станьте первым, кто получит скидку на новые самокаты</h1>
         <input id="email-name" type="email" class="input-email" name="useremail" maxlength="50" placeholder=" Введите Ваш email " required>
         <label for="email-name"></label>
-        <button type="submit" class="button button-footer" style="color: #6F73EE;font-size: 15px; padding-right: 36px;padding-left: 27px;padding-top: 14px;margin-bottom: 0px;padding-bottom: 16px;margin-top: 23px;margin-left: -229px;">
+        <button type="submit" class="button button-footer px991" style="color: #6F73EE;font-size: 15px; padding-right: 36px;padding-left: 27px;padding-top: 14px;margin-bottom: 0px;padding-bottom: 16px;margin-top: 23px;margin-left: -150px;">
           <div class="button-footer-text">Подписаться</div>
         </button>
       </div>
@@ -56,7 +56,7 @@
  </div>
  <div class="contain3">
   <hr class="footer-seporator">
-<div class="container-medium-social" style="height: 115px;position: relative;left: 9px;">
+<div class="container-medium-social" style="height: 115px;position: relative;left: 2px;">
 <div class="logo-footer">
   <a href="./" class="kugoo">KUGOO</a>
 </div>
