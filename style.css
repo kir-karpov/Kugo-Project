@@ -519,7 +519,7 @@ background-image: url(img/scooter.jpg);
 background-repeat:no-repeat;
 background-position: left top;
 background-size: 100%;
-margin-left: 1003px;
+margin-left: 1177px;
   width: 460px;
   margin-bottom: 100px;
   height: 380px;
@@ -532,7 +532,7 @@ margin-left: 1003px;
       background-size: 100%;
     width: 480px;
     height: 451px;
-    margin-left: 294px;
+    margin-left: 346px;
       margin-bottom: 100px;
     
 }
@@ -3075,7 +3075,7 @@ background-size: 90%;
   .container-items {
   position: relative;
     margin-bottom: 218px;
-   
+  margin: 157px;
     grid-template-columns: repeat(2, 1fr);
     margin-left: 175px;
     gap: 239px;
